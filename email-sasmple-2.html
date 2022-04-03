@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.google.com/specimen/Montserrat" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-         @media only screen and (min-width: 320px){
+        body {
+            margin:0px;
+        }
+        
+        .h6-style{
+            font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+        }
 
-         }
+        .h3-style{
+            font-family: 'Droid Serif', Georgia, Times, 'Times New Roman', serif;
+        }
 
-         @media only screen and (min-width: 600px) {
-            .wrapper {
-                width: 600px;
-            }
-
-            .span-style{
+        .span-style{
                 text-decoration: none;
                 color: #3f475e;
                 background-color: #ffffff;
@@ -26,42 +30,71 @@
                 font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
                 padding-left: 20px;
                 padding-right: 20px;
-                font-size: 16px;
                 letter-spacing: normal;
+            }
+
+            
+        @media only screen and (min-width: 320px){
+            .h6-style {
+                font-size: 30px;
+                font-weight: 400;
+            }
+            
+            .h3-style{
+                font-size: 60px;
+                margin: 0px;
+            }
+
+            .span-style{
+                font-size: 30px;
+                font-weight: 600;
+            }
+         }
+
+         @media only screen and (min-width: 600px) {
+            .wrapper {
+                width: 600px;
+            }
+
+            .span-style{
+                font-size: 16px;
+            }
+
+            .h6-style{
+                font-size: 14px;
+                font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+            .h3-style{
+                font-size: 26px;
+                font-family: 'Droid Serif', Georgia, Times, 'Times New Roman', serif;
             }
         }
 
-        .h6-style{
-            font-size: 14px;
-            font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
-        }
-
-        .h3-style{
-            font-size: 26px;
-            font-family: 'Droid Serif', Georgia, Times, 'Times New Roman', serif;
-        }
     </style>
 </head>
 <body>
-    <table class="center" cellpadding="0" cellspacing="0">
+    <table class="center" cellpadding="0" cellspacing="0" >
         <tr>
             <td>
-                <table class="wrapper" style="background-color:#c3ceb2; text-align:center;">
+                <table class="wrapper" style="background-color:#c3ceb2; text-align:center; padding: 20px; box-sizing: border-box; ">
                     <tr>
                         <td>
                             <p class="h6-style" style="color:white;">YOU CAN'T BUY LOVE...</p>
                             <p class="h3-style" style="color:#3f475e;">...but you can rescue it!</p>
-                            <p class="h6-style" style="color:#3f475e;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida nunc in nulla porta condimentum. Donec in quam lobortis, vehicula turpis non, tristique lacus. Suspendisse ultricies ante id luctus laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="h6-style" style="color:#3f475e; width:500px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida nunc in nulla porta condimentum. Donec in quam lobortis, vehicula turpis non, tristique lacus. Suspendisse ultricies ante id luctus laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td style="padding: 20px;">
                             <span class="span-style">ADOPT NOW</span>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/6711/dog.png">
+                            <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/6711/dog.png" style="width:500px;">
                         </td>
                     </tr>
                     <tr>
@@ -74,32 +107,33 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td  style="padding: 20px;">
                             <span class="span-style">SAVE THE DATE</span>
                         </td>
                     </tr>
                 </table>
-                <table class="wrapper" style="background-color:white; text-align:center;">
+                <table class="wrapper" style="background-color:white; text-align:center; padding: 20px; box-sizing: border-box;">
                     <tr>
                         <td>
-                            <p>START A STORY.ADOPT!</p>
+                            <p  class="h6-style" style="color:#3f475e;">START A STORY.ADOPT!</p>
                             <p class="h3-style" style="color:#3f475e;">Search to find</p>
                             <p class="h3-style" style="color:#3f475e;">your new best friend</p>
-                            <p>There are likely hundreds of adoptable pets in your local animal shelters or rescues right now who would love to join your family. Helping vulnerable animals and keeping pets in safe and loving homes requires a commitment from all of us.</p>
+                            <p  class="h6-style" style=" width:500px;">There are likely hundreds of adoptable pets in your local animal shelters or rescues right now who would love to join your family. Helping vulnerable animals and keeping pets in safe and loving homes requires a commitment from all of us.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td style="padding: 20px;">
                             <span class="span-style" style="background-color:#3f475e; color:white;">ADOPT NOW</span>
                         </td>
                     </tr>
+                </table>
+                <table>
                     <tr>
                         <td>
                             <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/6711/pet-gif.gif" style="width:600px;">
                         </td>
                     </tr>
                 </table>
-                
             </td>
         </tr>
     </table>
